@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+  url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+	}
+@font-face {
+  font-family: "RobotoLight";
+  src: url("../fonts/RobotoLight/RobotoLight.eot");
+  src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
+  url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	color: #FFFFF0;
+	line-height: 1.6;
+	overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+a, button{
+	text-decoration: none;
+	border: none;
+	color: #434343;
+}
+.center{
+	text-align: center;
+}
+header{
+	height: 100vh;
+	border-bottom: 1px solid #FFFFF0;
+	background: #DA4453;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+section {
+	min-height: 754px;
+	position: relative;
+	border-bottom: 1px solid #FFFFF0;
+}
+body section:nth-child(1){
+	background: #355C7D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body section:nth-child(2){
+	background: #ad5389;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body section:nth-child(3){
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body section:nth-child(4){
+	background: #4B79A1;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+

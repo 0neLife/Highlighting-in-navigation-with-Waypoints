@@ -1,0 +1,111 @@
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #FFFFF0;
+  letter-spacing: 3px;
+  padding: 20px;
+  font-size: 35px;
+  text-transform: uppercase;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+h1:before, h1:after, 
+h1 span:before, h1 span:after {
+  content:"";
+  display:block;
+  width:20px;
+  height:20px;
+  position:absolute;
+}
+h1:before {
+  border-left:solid 1px #FFFFF0;
+  border-top:solid 1px #FFF;
+  left:-16px;
+  top:-16px;
+}
+h1:after {
+  border-right:solid 1px #FFFFF0;
+  border-top:solid 1px #FFFFF0;
+  right:-16px;
+  top:-16px;
+}
+h1 span:before {
+  border-left:solid 1px #FFFFF0;
+  border-bottom:solid 1px #FFFFF0;
+  left:-16px;
+  bottom:-16px;
+}
+h1 span:after {
+  border-right:solid 1px #FFFFF0;
+  border-bottom:solid 1px #FFFFF0;
+  right:-16px;
+  bottom:-16px;
+}
+.fixed-menu{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  padding: 5px;
+  z-index: 1;
+  background-color: #FFFFF0;
+  box-shadow: 0 1px 3px #434343;
+  -webkit-box-shadow: 0 1px 3px #434343;
+  transition: top .5s;
+  -webkit-transition: top .5s;
+  -moz-transition: top .5s;
+  -o-transition: top .5s;
+}
+.fixed-menu.active{
+  top: 0%;
+}
+.fixed-menu img{
+  width: 27px;
+  height: 27px;
+}
+.fixed-menu .fixed-nav-menu{
+  text-align: right;
+  vertical-align: middle;
+  font-size: 21px;
+}
+.fixed-menu .fixed-nav-menu li{
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+}
+.fixed-menu a{
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  padding: 24px 5px;
+  line-height: 48px;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.fixed-menu a:hover{
+  color: #DA4453;
+}
+.disable-click{
+  color: #DA4453;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s
+}
+.disable-click:before,
+.disable-click:after{
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 14px;
+  bottom: 49%;
+  background-color: #DA4453;
+}
+.disable-click:before{
+  left: -12px;
+}
+.disable-click:after{
+  right: -12px;
+}
